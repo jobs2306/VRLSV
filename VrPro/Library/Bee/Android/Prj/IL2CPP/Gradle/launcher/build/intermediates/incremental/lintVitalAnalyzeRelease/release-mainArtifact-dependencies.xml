@@ -1,0 +1,20 @@
+<dependencies>
+  <compile
+      roots="C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name="C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

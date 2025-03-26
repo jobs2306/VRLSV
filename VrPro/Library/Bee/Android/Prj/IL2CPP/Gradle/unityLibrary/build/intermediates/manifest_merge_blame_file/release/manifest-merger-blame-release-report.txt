@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="29" />
+6-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+7
+8    <uses-feature android:glEsVersion="0x00030000" />
+8-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-52
+8-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:17-49
+9    <uses-feature
+9-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-91
+10        android:name="android.hardware.vulkan.version"
+10-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:17-63
+11        android:required="false" />
+11-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:64-88
+12    <uses-feature
+12-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-88
+13        android:name="android.hardware.touchscreen"
+13-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-60
+14        android:required="false" />
+14-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:61-85
+15    <uses-feature
+15-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-99
+16        android:name="android.hardware.touchscreen.multitouch"
+16-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-71
+17        android:required="false" />
+17-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:72-96
+18    <uses-feature
+18-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-108
+19        android:name="android.hardware.touchscreen.multitouch.distinct"
+19-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-80
+20        android:required="false" />
+20-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:81-105
+21
+22    <application android:extractNativeLibs="true" >
+22-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-24:17
+22-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:16-48
+23        <meta-data
+23-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+24            android:name="unity.splash-mode"
+24-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+25            android:value="0" />
+25-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+26        <meta-data
+26-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+27            android:name="unity.splash-enable"
+27-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+28            android:value="True" />
+28-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+29        <meta-data
+29-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-78
+30            android:name="unity.launch-fullscreen"
+30-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-54
+31            android:value="True" />
+31-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+32        <meta-data
+32-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-84
+33            android:name="unity.render-outside-safearea"
+33-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-60
+34            android:value="True" />
+34-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:61-81
+35        <meta-data
+35-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+36            android:name="notch.config"
+36-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+37            android:value="portrait|landscape" />
+37-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+38        <meta-data
+38-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+39            android:name="unity.auto-report-fully-drawn"
+39-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+40            android:value="true" />
+40-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+41
+42        <activity
+42-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-23:16
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-68
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+44-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:180-361
+45            android:hardwareAccelerated="false"
+45-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:397-432
+46            android:launchMode="singleTask"
+46-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:148-179
+47            android:resizeableActivity="false"
+47-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:362-396
+48            android:screenOrientation="fullUser"
+48-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-147
+49            android:theme="@style/UnityThemeSelector" >
+49-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
+50            <intent-filter>
+50-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-20:23
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
+51-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
+52
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-61
+53-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-58
+54
+55                <category android:name="com.oculus.intent.category.VR" />
+55-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-66
+55-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:19-63
+56            </intent-filter>
+57
+58            <meta-data
+58-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-82
+59                android:name="unityplayer.UnityActivity"
+59-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:18-58
+60                android:value="true" />
+60-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:59-79
+61            <meta-data
+61-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-70
+62                android:name="notch_support"
+62-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-46
+63                android:value="true" />
+63-->C:\PROG\Unity\VRPrueba\VrPro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:47-67
+64        </activity>
+65    </application>
+66
+67</manifest>
