@@ -11,6 +11,15 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+# Archivos grandes
+/VrPro/Library/ArtifactDB
+/VrPro/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar
+/VrPro/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+/VrPro/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+/VrPro/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+/VrPro/Library/PackageCache/com.unity.burst@1.8.18/.Runtime/libburst-llvm-16.dylib
+/VrPro/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.10/data~/payload.tar.7z
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
